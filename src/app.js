@@ -1,12 +1,22 @@
 // throw new Error("ai, ca fait mal");
 
-const Pet = () => {
+// https://frontendmasters.com/courses/complete-react-v5/passing-in-component-props/
+// const Pet = (props) => {
+//     return React.createElement("div", {}, [
+//         React.createElement("h1", {}, props.name),
+//         React.createElement("h2", {}, props.animal),
+//         React.createElement("h2", {}, props.origin),
+//     ]);
+// }
+// https://frontendmasters.com/courses/complete-react-v5/destructuring-props/
+// Destructuring props
+const Pet = ({name, animal, origin }) => {
     return React.createElement("div", {}, [
-        React.createElement("h1", {}, "Noam"),
-        React.createElement("h2", {}, "Domesticated Human"),
-        React.createElement("h2", {}, "From the east"),
+        React.createElement("h1", {}, name),
+        React.createElement("h2", {}, origin),
+        React.createElement("h2", {}, animal),
     ]);
-}
+} 
 
 const App = () => {
     // https://frontendmasters.com/courses/complete-react-v5/createelement-arguments/
