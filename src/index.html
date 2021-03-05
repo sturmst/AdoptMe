@@ -15,22 +15,6 @@
     <!-- load DOM; render react into browser -->
     <!-- React-native and React-share the React package -->
     <script src="https://unpkg.com/react-dom@16.8.4/umd/react-dom.development.js"></script>
-    <!-- <script src="app.js"></script> -->
-    <script>
-        // bad practice, temp. here purely for practicing reasons
-        // throw new Error("ai, ca fait mal");
-        const App = () => {
-            // https://frontendmasters.com/courses/complete-react-v5/createelement-arguments/
-            // 1. what kind of element is it? (h1) 
-            // 2. empty object ({}); all attribute you want to give your component, what you want to pass to your child element
-            //  3. children; what ever children you want to pass in this element; variable verity
-            return React.createElement(
-                "div",
-                {}, 
-                React.createElement("h1", {}, "Adopt Me!")
-            );
-        };
-        ReactDOM.render(React.createElement(App), document.getElementById("root"));
-    </script>
+    <script src="App.js"></script>
 </body>
 </html>
