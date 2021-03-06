@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +20,10 @@
     "url": "https://github.com/sturmst/AdoptMe/issues"
   },
   "homepage": "https://github.com/sturmst/AdoptMe#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",

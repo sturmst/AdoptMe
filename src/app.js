@@ -43,7 +43,7 @@ const App = () => {
     React.createElement(Pet, {
       name: "Eggman",
       animal: "Millionaire",
-      origin: "Absents of mother",
+      origin: "Absence of mother",
     }),
   ]);
 };
