@@ -40,6 +40,11 @@ const App = () => {
       animal: "Domesticated Cat",
       origin: "Sint-Gilles",
     }),
+    React.createElement(Pet, {
+      name: "Eggman",
+      animal: "Millionaire",
+      origin: "Absents of mother",
+    }),
   ]);
 };
 ReactDOM.render(React.createElement(App), document.getElementById("root"));
